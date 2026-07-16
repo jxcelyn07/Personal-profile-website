@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<head>
+    <title>My Profile</title>
+
+    <link rel="icon" href="icon.png">
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #3B2A24;
+            color: #F5EBDD;
+        }
+
+        .nav{
+            overflow: hidden;
+            background-color: rgba(32, 32, 32, 0.767) ;
+            font-size: large;
+        }
+
+        .nav a {
+            float: right;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .nav a:hover {
+            background-color: #dddddd;
+            color: black;
+        }
+
+        .nav a.active {
+            background-color: #1997c5;
+            color: white;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding-left: 20px;
+        }
+
+        .profile {
+            color: rgb(80, 43, 43);;
+            background-color: #faecd6;
+            width: 300px;
+            padding-left: 50px;
+            margin-left: 10px;
+        }
+
+        .grid-container1 {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            margin-left: 30px;
+            margin-right: 50px;
+        }
+
+        #about {
+            border-bottom: 2px dashed black;
+        }
+
+        #hobbies {
+            background-image: url(hobby.png);
+            background-size: 100% 100%;
+            color: #1E3A5F;
+            padding: 20px;
+            padding-left: 65px;
+            padding-right: 100px;
+        }
+
+        #funfacts {
+            background-image: url(funfacts.png);
+            background-size: 100% 100%;
+            color: #1E3A5F;
+            padding: 20px;
+            padding-left: 155px;
+            padding-right: 155px;
+        }
+
+        #skills {
+            background-image: url(skills.png);
+            background-size: 100% 100%;
+            color: #1E3A5F;
+            padding-left: 175px;
+            padding-right: 175px;
+        }
+
+        #contact {
+            background-image: url(contact.png);
+            background-size: 100% 100%;
+            color: #1E3A5F;
+            padding-left: 180px;
+            padding-right: 175px;
+        }
+
+        .grid-container2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 30px;
+            margin-right: 30px;
+            justify-items: center;
+        }
+
+        .grid-container3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 30px;
+            margin-right: 30px;
+            justify-items: center;
+        }
+
+        .about-content {
+            max-width: 900px;
+        }
+
+
+
+
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <a class="active" href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#funfacts">FunFacts</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <p style="padding-left: 40px; color: white; font-size: 23;"><b>MY PROFILE</b></p>
+    </div>
+
+    <br>
+
+    <div class="grid-container1">
+    <div class="profile">
+        <br>
+        <img src="Profilepic.png" width="200px" height="200px" style="padding-left: 19px;">
+        <br>
+        <h2 style="padding-left: 30px;">Jocelyn Malar N</h2>
+        <p style="padding-left: 40px;">Student | South India</p>
+        <p style="padding-left: 25px;">njocelynmalar@gmail.com</p>
+        <br>
+    </div>
+
+    <section id="about">
+    <h2>About Me</h2>
+    <p class="about-content">
+        Hello! I'm Jocelyn Malar N, a student from South India with a passion for technology and continuous learning. I enjoy exploring new ideas, developing practical skills, and taking on projects that help me grow both personally and professionally. In my free time, I like watching movies, listening to music, and spending time on creative activities that inspire me to think differently.
+    </p>
+
+    <p class="about-content">
+        I am currently learning HTML as my first step into the world of web development. Building simple web pages has helped me understand the fundamentals of creating structured and meaningful content on the web. I believe that every project, no matter how small, is an opportunity to learn something new and improve my skills.
+    </p>
+
+    <p class="about-content">
+        Apart from web development, I enjoy exploring different software tools and staying updated with emerging technologies. I value qualities such as curiosity, dedication, and consistency, and I always strive to give my best in everything I do. My goal is to build a strong foundation in programming, learn modern web technologies, and create user-friendly, creative, and responsive websites that make a positive impact. I look forward to continuously expanding my knowledge and turning my passion for technology into a successful career.
+    </p>
+    </section>
+    <br>
+    </div>
+
+    <br><br>
+
+
+    <div class="grid-container2">
+
+    <section id="hobbies">
+    <h2 style="text-align: center; font-size: 35px; color: rgb(80, 43, 43);">HOBBIES</h2>
+    
+    <ul>
+        <li>🎵 Listening to Music – Helps me relax after studying.</li>
+        <li>📚 Reading – I enjoy learning about new technologies.</li>
+        <li>💻 Coding – I love building simple websites.</li>
+        <li>✈️ Traveling – I enjoy exploring new places.</li>
+        <li>📸Photography – To record my memories</li>
+    </ul>
+    <br>
+    </section>
+
+
+    <section id="funfacts">
+    <h2 style="text-align: center; font-size: 35px; color: rgb(80, 43, 43);">FUN FACTS</h2>
+
+    <ul>
+        <li>🎂 Birthday: June 21</li>
+        <li>🌍 From: South India</li>
+        <li>❄️Favorite Season: Winter</li>
+        <li>🍛Favorite Food: Biryani</li>
+        <li>🖤Favorite Color: Black</li>
+        <li>🧶One thing I'd like to learn: Crochet</li>
+    </ul>
+    </section>
+    </div>
+    <br>
+
+     <div class="grid-container3">
+
+    <section id="skills">
+        <br>
+
+       <h2 style="text-align: center; font-size: 35px; color: rgb(80, 43, 43);">SKILLS</h2>
+
+        <table style="padding-left: 40px;">
+            <tr>
+              <td>HTML</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            
+            <tr>
+              <td>CSS</td>
+              <td>⭐⭐⭐</td>
+            </tr> 
+
+            <tr>
+              <td>Excel</td>
+              <td> ⭐⭐⭐⭐</td>
+            </tr>
+
+            <tr>
+              <td>Visio</td>
+              <td> ⭐⭐</td>
+           </tr>
+
+           <tr>
+              <td>NotebookLM</td>
+              <td> ⭐⭐</td>
+           </tr>
+        </table><br><br><br>
+
+    </section>
+
+
+    <section id="contact"><br>
+    <h2 style="text-align: center; font-size: 35px; color: rgb(80, 43, 43);">CONTACT</h2>
+    <p>GMAIL: <a style="color: rgb(23, 23, 149);" href="mailto:njocelynmalar@gmail.com;">njocelynmalar@gmail.com</a></p>
+    <p>PHONE: *****80956</p>
+    <p>GITHUB: <a style="color: rgb(23, 23, 149);" href="https://github.com/jxcelyn07">jxcelyn07</a></p>
+    </section><br>
+
+    </div>
+<br>
+    <hr><br>
+
+    <footer>
+        <center>
+        Thank you for visiting!<br>
+        Designed & Developed by<br>
+        © 2026 Jocelyn Malar<br><br>
+        </center>
+    </footer>
+   
+
+</body>
